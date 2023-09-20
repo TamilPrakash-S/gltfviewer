@@ -1,5 +1,5 @@
-import { LoaderUtils } from '../node_modules/three/build/three.js';
-import { validateBytes } from '../node_modules/gltf-validator/index.js';
+import { LoaderUtils } from 'three';
+import { validateBytes } from 'gltf-validator';
  import { ValidatorToggle } from './components/validator-toggle';
 import { ValidatorReport } from './components/validator-report';
 
