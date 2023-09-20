@@ -21,18 +21,18 @@ import {
   ACESFilmicToneMapping,
   Skeleton
 } from 'three';
-import Stats from '../node_modules/three/examples/jsm/libs/stats.module.js';
-import { GLTFLoader } from '../node_modules/three/examples/jsm/loaders/GLTFLoader.js';
-import { KTX2Loader } from '../node_modules/three/examples/jsm/loaders/KTX2Loader.js';
-import { DRACOLoader } from '../node_modules/three/examples/jsm/loaders/DRACOLoader.js';
-import { MeshoptDecoder } from '../node_modules/three/examples/jsm/libs/meshopt_decoder.module.js';
-import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls.js';
-import { EXRLoader } from '../node_modules/three/examples/jsm/loaders/EXRLoader.js';
-import { RoomEnvironment } from '../node_modules/three/examples/jsm/environments/RoomEnvironment.js';
+import Stats from 'three/examples/jsm/libs/stats.module.js';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { KTX2Loader } from 'three/examples/jsm/loaders/KTX2Loader.js';
+import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js';
+import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { EXRLoader } from 'three/examples/jsm/loaders/EXRLoader.js';
+import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
 
 import { GUI } from 'dat.gui';
 
-import { environments } from './environments.js';
+import { environments } from './environments.jsx';
 
 const DEFAULT_CAMERA = '[default]';
 
