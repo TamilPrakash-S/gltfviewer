@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "vite preview",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --port 3000",
     "build": "vite build",
     "clean": "rimraf dist/**",

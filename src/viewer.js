@@ -136,7 +136,7 @@ export class Viewer {
     window.addEventListener('resize', this.resize.bind(this), false);
     this.controls.enabled = true;
     this.controls.enableDamping  = true;
-		this.controls.dampingFactor = 0.2;
+		this.controls.dampingFactor = 0.05;
     window.controls = this.controls;
     // gsap.to( camera.position, {
     //   duration: 1,
