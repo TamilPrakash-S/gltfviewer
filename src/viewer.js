@@ -389,10 +389,15 @@ export class Viewer {
       this.controls.enabled = true;
       this.activeCamera = this.defaultCamera;
     } else {
-      this.controls.enabled = false;
+      
+      // this.controls.enabled = false;
       this.content.traverse((node) => {
         if (node.isCamera && node.name === name) {
-          this.activeCamera = node;
+          
+      this.defaultCamera.position.set(node.position.x, node.position.y, node.position.z);
+      this.defaultCamera.rotation.set(node.rotation.x, node.rotation.y, node.rotation.z);
+      this.controls.update();
+          // this.activeCamera = node;
         }
       });
     }
