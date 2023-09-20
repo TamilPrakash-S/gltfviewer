@@ -23,6 +23,7 @@
     "deploy": "gh-pages -d dist",
     "dev": "vite --port 3000",
     "build": "vite build",
+    "preview": "vite preview",
     "clean": "rimraf dist/**",
     "test": "node test/gen_test.js",
     "deployp": "npm run build && vercel --local-config vercel.json --prod",
