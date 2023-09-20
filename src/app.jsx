@@ -1,9 +1,9 @@
-import WebGL from 'three/examples/jsm/capabilities/WebGL.js';
+import WebGL from '../node_modules/three/examples/jsm/capabilities/WebGL.js';
 import { Viewer } from './viewer.js';
-import { SimpleDropzone } from 'simple-dropzone';
+import { SimpleDropzone } from '../node_modules/simple-dropzone/index.js';
 import { Validator } from './validator.js';
 import { Footer } from './components/footer.jsx';
-import queryString from 'query-string';
+import queryString from '../node_modules/query-string/index.js';
 
 window.VIEWER = {};
 
