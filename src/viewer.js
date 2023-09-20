@@ -137,6 +137,7 @@ export class Viewer {
     this.controls.enabled = true;
     this.controls.enableDamping  = true;
 		this.controls.dampingFactor = 0.05;
+		this.controls.rotateSpeed = 2;
     window.controls = this.controls;
     // gsap.to( camera.position, {
     //   duration: 1,
