@@ -1,5 +1,5 @@
 import WebGL from 'three/examples/jsm/capabilities/WebGL.js';
-import { Viewer } from './viewer.jsx';
+import { Viewer } from './viewer.js';
 import { SimpleDropzone } from 'simple-dropzone';
 import { Validator } from './validator.jsx';
 import { Footer } from './components/footer.jsx';
