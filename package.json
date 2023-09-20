@@ -19,7 +19,7 @@
     ]
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "",
     "deploy": "gh-pages -d dist",
     "dev": "vite --port 3000",
     "build": "vite build",
